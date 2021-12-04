@@ -1,5 +1,3 @@
-
-
 test = "testInput/"
 real = "input/"
 day = "day3.txt"
