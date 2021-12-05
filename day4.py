@@ -32,15 +32,7 @@ def checkBingo(board):
                 bingo = False
         if bingo:
             return True
-    bingo = True
-    for i in range(5):
-        if board[i][i][1] == False:
-            bingo = False
-    if bingo:
-        return True
-    for i in range(5):
-        if board[i][4-i][1] == False:
-            return False
+    return False
 
 def calcScore(board, num):
     tot = 0
