@@ -16,7 +16,10 @@ def part1(a):
 def part2(a):
     return
 
-print(part1(getInput(test + day)))
-print(part1(getInput(real + day)))
-print(part2(getInput(test + day)))
-print(part2(getInput(real + day)))
+
+testInput = getInput(test+day)
+input = getInput(real+day)
+print(part1(testInput))
+print(part1(input))
+#print(part2(testInput))
+#print(part2(input))
