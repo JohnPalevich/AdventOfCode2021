@@ -1,5 +1,3 @@
-import binascii
-
 test = "testInput/"
 real = "input/"
 day = "day16.txt"
